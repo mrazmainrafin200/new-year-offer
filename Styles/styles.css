@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Font style */
 
 .merriweather-font-style {
   font-family: "Merriweather", serif;
@@ -5,5 +11,11 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+.inter-font-style {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
