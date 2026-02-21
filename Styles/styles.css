@@ -235,6 +235,7 @@ header h3 {
 .sale-section {
   margin-top: 120px;
   text-align: center;
+  margin-bottom: 600px;
 }
 
 .holiday-title {
@@ -266,4 +267,21 @@ header h3 {
   position: relative;
   top: -200px;
   right: -100px;
+}
+
+/* Best gift style */
+
+.best-gift-title {
+  margin-bottom: 28px;
+}
+
+.best-gift-second-title {
+  margin-bottom: 22px;
+}
+
+.gift-item {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
