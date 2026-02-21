@@ -229,3 +229,41 @@ header h3 {
 .best-offer-second-description {
   margin-bottom: 43px;
 }
+
+/* Holiday section style */
+
+.sale-section {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.holiday-title {
+  margin-bottom: 16px;
+}
+
+.holiday-second-title {
+  margin-bottom: 28px;
+}
+
+.holiday-image-container {
+  position: relative;
+  height: 400px;
+}
+
+.red-bar {
+  position: relative;
+  left: 0;
+  z-index: 1;
+}
+
+.gift-box {
+  position: relative;
+  top: 200px;
+  z-index: 2;
+}
+
+.discount-badge {
+  position: relative;
+  top: -200px;
+  right: -100px;
+}
