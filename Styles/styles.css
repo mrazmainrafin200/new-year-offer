@@ -103,3 +103,31 @@ header h3 {
   margin-bottom: 16px;
 }
 
+/* Offer section style */
+
+.offer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.offer-section h1 {
+  color: rgb(255, 0, 0);
+  margin-bottom: 48px;
+}
+
+.offer-section p {
+  color: rgb(255, 0, 0);
+  margin-bottom: 16px;
+}
+
+.offer-section img {
+  max-width: 802.9px;
+  height: auto;
+  margin-top: 48px;
+}
+
+/* Welcome to midnight party style */
+
