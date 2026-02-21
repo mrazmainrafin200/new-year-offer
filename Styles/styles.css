@@ -80,6 +80,14 @@
   font-weight: 500;
 }
 
+.text-color-1 {
+  color: rgb(255, 0, 0);
+}
+
+.text-color-2 {
+  color: rgba(7, 2, 17, 0.6);
+}
+
 /* Bode style */
 
 body {
@@ -176,14 +184,10 @@ header h3 {
   background-image: linear-gradient(rgba(255, 0, 0, 0.1), white);
   height: 482px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   text-align: center;
   line-height: 56px;
-}
-
-.joining-text-color {
-  color: rgb(255, 0, 0);
 }
 
 .event-time-btn {
@@ -193,4 +197,35 @@ header h3 {
   color: white;
   border-radius: 8px;
   margin-top: 48px;
+}
+
+/* Best offer style */
+
+.best-offer-section {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.best-offer-first-title {
+  margin-bottom: 16px;
+}
+
+.best-offer-second-title {
+  margin-bottom: 22px;
+}
+
+.happy-img {
+  border: 15px solid red;
+  border-radius: 50%;
+  padding: 50px;
+}
+
+.best-offer-second-cloum-title {
+  margin-bottom: 16px;
+}
+
+.best-offer-second-description {
+  margin-bottom: 43px;
 }
