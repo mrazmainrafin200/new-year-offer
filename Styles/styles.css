@@ -56,6 +56,10 @@
   font-size: 88px;
 }
 
+.font-size-8 {
+  font-size: 64px;
+}
+
 .font-weight-1 {
   font-weight: 400;
 }
@@ -129,5 +133,37 @@ header h3 {
   margin-top: 48px;
 }
 
-/* Welcome to midnight party style */
+/* Welcome to midnight party section style */
 
+.welcome-party-section {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  height: 602px;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  justify-content: center;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+.welcome-title {
+  color: white;
+}
+
+.welcome-description {
+  color: white;
+  margin-top: 24px;
+}
+
+.welcome-link{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-top: 48px;
+  margin-left: 32px;
+}
