@@ -160,10 +160,37 @@ header h3 {
   margin-top: 24px;
 }
 
-.welcome-link{
+.welcome-link {
   text-decoration: none;
   color: white;
   display: inline-block;
   margin-top: 48px;
   margin-left: 32px;
+}
+
+/* Event time section style */
+
+.joining-time-section {
+  margin-top: 118px;
+  border-radius: 16px;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.1), white);
+  height: 482px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  line-height: 56px;
+}
+
+.joining-text-color {
+  color: rgb(255, 0, 0);
+}
+
+.event-time-btn {
+  padding: 16px 32px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 8px;
+  margin-top: 48px;
 }
