@@ -285,3 +285,60 @@ header h3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
+
+/* subcribe-section style */
+
+.subcribe-section {
+  min-height: 616px;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.subcribe-img {
+  margin-bottom: 40px;
+}
+
+.subcribe-title {
+  margin-bottom: 22px;
+}
+
+.subcribe-description {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.subcribe-section-input {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  width: 648px;
+  height: 72px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.subcribe-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding-left: 30px;
+}
+
+.subcribe-btn {
+  background-color: #ff0015;
+  color: white;
+  border: none;
+  padding: 0 40px;
+  height: 100%;
+  border-radius: 0 50px 50px 0;
+ cursor: pointer;
+}
+
+/* Footer */
